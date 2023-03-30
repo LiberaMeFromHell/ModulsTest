@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/booking" />
+            <option value="$PROJECT_DIR$/booking/core_booking" />
+            <option value="$PROJECT_DIR$/booking/core_booking/core_booking_api" />
+            <option value="$PROJECT_DIR$/booking/core_booking/core_booking_impl" />
+            <option value="$PROJECT_DIR$/booking/feature_booking" />
+            <option value="$PROJECT_DIR$/core_app" />
+            <option value="$PROJECT_DIR$/core_ui" />
+            <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/login/core_login" />
+            <option value="$PROJECT_DIR$/login/core_login/core_login_api" />
+            <option value="$PROJECT_DIR$/login/core_login/core_login_impl" />
+            <option value="$PROJECT_DIR$/login/feature_login" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

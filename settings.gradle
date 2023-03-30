@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "LoginUI"
+include ':app'
+include ':login:core_login'
+include ':login:feature_login'
+include ':core_ui'
+include ':login:core_login:core_login_api'
+include ':login:core_login:core_login_impl'
+include ':booking:core_booking'
+include ':booking:feature_booking'
+include ':booking:core_booking:core_booking_impl'
+include ':booking:core_booking:core_booking_api'
+include ':core_app'
